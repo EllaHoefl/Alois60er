@@ -8,18 +8,30 @@ screenid=min(len(screens)-1,1)
 mainWindow = pyglet.window.Window(fullscreen=True, screen=screens[screenid])
 
 backgroundImage = pyglet.resource.image('LabyrinthSpirte.jpg')
-image_files = ['chromosomes_1.png','chromosomes_2.png','chromosomes_3.png','chromosomes.png']
-quiz_images = []
-for image in image_files:
-    quiz_images.append(pyglet.resource.image(image))
-image_index = 0
+quizes = []
 
+image_files = ['chromosomes_1.png','chromosomes_2.png','chromosomes_3.png','chromosomes.png']
+quiz = []
+for image in image_files:
+    quiz.append(pyglet.resource.image(image))
+quizes.append(quiz)
+
+image_files = ['Alois_1.jpg','Alois_2.jpg','Alois_3.jpg','Alois_4.jpg','Alois_5.jpg']
+quiz = []
+for image in image_files:
+    quiz.append(pyglet.resource.image(image))
+quizes.append(quiz)
+
+image_index = 0
+quiz_index = 1
 show_quiz_images = True
+
 
 def update_game(delta_time):
     global image_index
-    if image_index < len(quiz_images)-1:
+    if image_index < len(quizes[quiz_index])-1:
         image_index += 1
+
 
 @mainWindow.event
 def on_key_press(symbol, modifiers):
@@ -32,7 +44,7 @@ def on_key_press(symbol, modifiers):
 def on_draw():
     mainWindow.clear()
     if show_quiz_images:
-        quiz_images[image_index].blit(0,0, width=mainWindow.width, height=mainWindow.height)
+        quizes[quiz_index][image_index].blit(0,0, width=mainWindow.width, height=mainWindow.height)
     else:
         backgroundImage.blit(0,0, width=mainWindow.width, height=mainWindow.height)
 
