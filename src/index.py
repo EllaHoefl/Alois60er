@@ -40,7 +40,7 @@ stone_image = pyglet.image.load('stone.png')
 stone_image_size = float(stone_image.height)
 
 # Player image and values
-player_image = pyglet.image.load('alois.png')
+player_image = pyglet.image.load('alois.jpg')
 player_image_size = float(player_image.height)
 player = pyglet.sprite.Sprite(player_image)
 player.scale = unit_size / player_image_size
@@ -79,15 +79,24 @@ add_quiz([5,6,12,13], [
     'Frauenschuh_1.jpg','Frauenschuh_2.jpg','Frauenschuh_3.jpg','Frauenschuh_4.jpg','Frauenschuh_5.jpg','Frauenschuh_6.jpg','Frauenschuh_7.jpg'
 ])
 # Zweites Quiz
-add_quiz([], ['Ehe_2.jpg','Ehe_3.jpg'])
+add_quiz([], [
+    'Ehe_1.jpg','Ehe_2.jpg','Ehe_3.jpg','Ehe_4.jpg','Ehe_5.jpg','Ehe_6.jpg','Ehe_7.jpg','Ehe_8.jpg','Ehe_9.jpg','Ehe_10.jpg',
+    'Ehe_11.jpg','Ehe_12.jpg','Ehe_13.jpg','Ehe_14.jpg','Ehe_15.jpg','Ehe_16.jpg','Ehe_17.jpg','Ehe_18.jpg','Ehe_19.jpg','Ehe_20.jpg',
+    'Ehe_21.jpg','Ehe_22.jpg','Ehe_23.jpg'
+])
 # Drittes Quiz
-add_quiz([], ['Mauerbau.jpeg'])
+add_quiz([], ['Mauerbau.jpg'])
 # Viertes Quiz
-add_quiz([], ['Freunde_1.jpg'])
+add_quiz([], ['Freunde_1.jpg','Freunde_2.jpg','Freunde_3.jpg','Freunde_4.jpg','Freunde_5.jpg','Freunde_6.jpg','Freunde_7.jpg'])
 # Fuenftes Quiz
-add_quiz([], ['Fortfahren_1.jpg'])
+add_quiz([], ['Fortfahren_1.jpg','Fortfahren_2.jpg','Fortfahren_3.jpg','Fortfahren_4.jpg','Fortfahren_5.jpg','Fortfahren_6.jpg'])
 # Sechstes Quiz
-add_quiz([], ['Geschwister_1.jpg','Geschwister_2.jpg'])
+add_quiz([], [
+    'Geschwister_1.jpg','Geschwister_2.jpg','Geschwister_3.jpg','Geschwister_4.jpg','Geschwister_5.jpg','Geschwister_6.jpg',
+    'Geschwister_7.jpg','Geschwister_8.jpg','Geschwister_9.jpg','Geschwister_10.jpg','Geschwister_11.jpg','Geschwister_13.jpg',
+    'Geschwister_14.jpg','Geschwister_15.jpg','Geschwister_16.jpg','Geschwister_17.jpg','Geschwister_18.jpg','Geschwister_19.jpg',
+    'Geschwister_20.jpg','Geschwister_21.jpg','Geschwister_22.jpg','Geschwister_23.jpg','Geschwister_24.jpg','Geschwister_25.jpg'
+])
 # Siebtes Quiz
 add_quiz([], ['Motorrad.jpg'])
 # Achtes Quiz
