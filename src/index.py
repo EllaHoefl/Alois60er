@@ -71,7 +71,7 @@ add_quiz(['start.jpg'])
 # Erstes Quiz
 add_quiz(['Hibiskus_1.JPG','Hibiskus_2.JPG','Hibiskus_3.JPG','Hibiskus_4.JPG','Hibiskus_5.JPG','Hibiskus_6.JPG','Hibiskus_7.JPG','Frauenschuh_1.jpg','Frauenschuh_2.jpg','Frauenschuh_3.jpg','Frauenschuh_4.jpg','Frauenschuh_5.jpg','Frauenschuh_6.jpg','Frauenschuh_7.jpg'])
 # Zweites Quiz
-add_quiz(['Ehe_2.jpg','Familie.jpg'])
+add_quiz(['Ehe_1.jpg','Ehe_2.jpg','Ehe_3.jpg','Ehe_4.jpg','Ehe_5.jpg','Ehe_6.jpg','Ehe_7.jpg','Ehe_8.jpg','Ehe_9.jpg','Ehe_10.jpg','Ehe_11.jpg','Ehe_12.jpg','Ehe_13.jpg','Ehe_14.jpg','Ehe_15.jpg','Ehe_16.jpg','Ehe_17.jpg','Ehe_18.jpg','Ehe_19.jpg','Ehe_20.jpg','Ehe_21.jpg','Ehe_22.jpg','Ehe_23.jpg'])
 # Drittes Quiz
 add_quiz(['Mauerbau.jpeg'])
 # Viertes Quiz
