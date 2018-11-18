@@ -55,6 +55,7 @@ gems_seq = pyglet.image.ImageGrid(gems_image, 4, 5)
 
 gems_gained = []
 
+
 # Image quiz definitions
 quizes = []
 
@@ -65,9 +66,24 @@ def add_quiz(image_files):
         quiz.append(pyglet.resource.image(image))
     quizes.append(quiz)
 
-add_quiz(['Alois_1.jpg'])
-add_quiz(['chromosomes_1.png','chromosomes_2.png','chromosomes_3.png','chromosomes.png'])
-add_quiz(['Alois_2.jpg','Alois_3.jpg','Alois_4.jpg','Alois_5.jpg'])
+# Startbild
+add_quiz(['start.jpg'])
+# Erstes Quiz
+add_quiz(['Hibiskus_1.JPG','Hibiskus_2.JPG','Hibiskus_3.JPG','Hibiskus_4.JPG','Hibiskus_5.JPG','Hibiskus_6.JPG','Hibiskus_7.JPG','Frauenschuh_1.jpg','Frauenschuh_2.jpg','Frauenschuh_3.jpg','Frauenschuh_4.jpg','Frauenschuh_5.jpg','Frauenschuh_6.jpg','Frauenschuh_7.jpg'])
+# Zweites Quiz
+add_quiz(['Ehe_2.jpg','Familie.jpg'])
+# Drittes Quiz
+add_quiz(['Mauerbau.jpeg'])
+# Viertes Quiz
+add_quiz(['Freunde_1.jpg'])
+# Fuenftes Quiz
+add_quiz(['Fortfahren_1.jpg'])
+# Sechstes Quiz
+add_quiz(['Geschwister_1.jpg','Geschwister_2.jpg'])
+# Siebtes Quiz
+add_quiz(['Motorrad.jpg'])
+# Achtes Quiz
+add_quiz(['Nigeria.jpg'])
 
 image_index = 0
 quiz_index = 0
@@ -89,7 +105,7 @@ def update_stones():
         y = (row+1) * unit_size
         for column in range(window.width/unit_size):
             x = column * unit_size
-            if column + labyrinth_shift > len(labyrinth[row]):
+            if column + labyrinth_shift >= len(labyrinth[row]):
                 continue
             if labyrinth[row][column + labyrinth_shift]:
                 stone_sprite = pyglet.sprite.Sprite(stone_image, x, y, batch=batch)
@@ -118,7 +134,7 @@ def check_for_gems():
     global gems_gained
     gem = gems[player_position_y][player_position_x]
     if gem >= 0:
-        labyrinth_shift += 10
+        labyrinth_shift += 12
         gems[player_position_y][player_position_x] = -1
         quiz_index = gem
         gems_gained.append(gem)
