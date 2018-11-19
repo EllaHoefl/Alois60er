@@ -116,9 +116,14 @@ add_quiz([10], [
     'Geschwister_27.jpg'
 ])
 # Siebtes Quiz
-add_quiz([], ['Motorrad.jpg'])
+add_quiz([], [
+    'Hobbies_1.jpg','Hobbies_2.jpg','Hobbies_3.jpg'
+    ])
 # Achtes Quiz
-add_quiz([], ['Nigeria.jpg'])
+add_quiz([3,12], [
+    'Projekte_1.png','Projekte_2.jpg','Projekte_3.jpg','Projekte_4.jpg','Projekte_5.png','Projekte_6.jpg','Projekte_7.jpg',
+    'Projekte_8.jpg','Projekte_9.jpg','Projekte_10.jpg','Projekte_11.jpg','Projekte_12.jpg','Projekte_13.jpg','Projekte_14.jpg'
+    ])
 
 IMAGE_DISPLAY_DURATION = 2.0
 
