@@ -75,14 +75,16 @@ def add_quiz(wait, image_files):
 add_quiz([], ['start.jpg'])
 # Erstes Quiz
 add_quiz([5,6,12,13], [
-    'Hibiskus_1.JPG','Hibiskus_2.JPG','Hibiskus_3.JPG','Hibiskus_4.JPG','Hibiskus_5.JPG','Hibiskus_6.JPG','Hibiskus_7.JPG',
-    'Frauenschuh_1.jpg','Frauenschuh_2.jpg','Frauenschuh_3.jpg','Frauenschuh_4.jpg','Frauenschuh_5.jpg','Frauenschuh_6.jpg','Frauenschuh_7.jpg'
+    'Blumen_1.jpg','Blumen_2.jpg','Blumen_3.jpg','Blumen_4.jpg','Blumen_5.jpg','Blumen_6.jpg','Blumen_7.jpg','Blumen_8.jpg','Blumen_9.jpg',
+    'Blumen_10.jpg','Blumen_11.jpg','Blumen_12.jpg','Blumen_13.jpg','Blumen_14.jpg','Blumen_15.jpg','Blumen_16.jpg','Blumen_17.jpg',
+    'Blumen_18.jpg','Blumen_19.jpg','Blumen_20.jpg','Blumen_21.jpg','Blumen_22.jpg','Blumen_23.jpg','Blumen_24.jpg','Blumen_25.jpg',
+    'Blumen_26.jpg','Blumen_27.jpg','Blumen_28.jpg'
 ])
 # Zweites Quiz
-add_quiz([], [
+add_quiz([7,22], [
     'Ehe_1.jpg','Ehe_2.jpg','Ehe_3.jpg','Ehe_4.jpg','Ehe_5.jpg','Ehe_6.jpg','Ehe_7.jpg','Ehe_8.jpg','Ehe_9.jpg','Ehe_10.jpg',
     'Ehe_11.jpg','Ehe_12.jpg','Ehe_13.jpg','Ehe_14.jpg','Ehe_15.jpg','Ehe_16.jpg','Ehe_17.jpg','Ehe_18.jpg','Ehe_19.jpg','Ehe_20.jpg',
-    'Ehe_21.jpg','Ehe_22.jpg','Ehe_23.jpg'
+    'Ehe_21.jpg','Ehe_22.jpg','Ehe_23.jpg','Ehe_24.jpg','Ehe_25.jpg','Ehe_26.jpg','Ehe_27.jpg','Ehe_28.jpg','Ehe_29.jpg','Ehe_30.jpg','Ehe_31.jpg'
 ])
 # Drittes Quiz
 add_quiz([], ['Mauerbau.jpg'])
