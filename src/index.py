@@ -74,7 +74,7 @@ def add_quiz(wait, image_files):
 # Startbild
 add_quiz([], ['start.jpg'])
 # Erstes Quiz
-add_quiz([5,6,12,13], [
+add_quiz([5,6,12,13,19,20,26,27], [
     'Blumen_1.jpg','Blumen_2.jpg','Blumen_3.jpg','Blumen_4.jpg','Blumen_5.jpg','Blumen_6.jpg','Blumen_7.jpg','Blumen_8.jpg','Blumen_9.jpg',
     'Blumen_10.jpg','Blumen_11.jpg','Blumen_12.jpg','Blumen_13.jpg','Blumen_14.jpg','Blumen_15.jpg','Blumen_16.jpg','Blumen_17.jpg',
     'Blumen_18.jpg','Blumen_19.jpg','Blumen_20.jpg','Blumen_21.jpg','Blumen_22.jpg','Blumen_23.jpg','Blumen_24.jpg','Blumen_25.jpg',
@@ -87,7 +87,14 @@ add_quiz([7,22], [
     'Ehe_21.jpg','Ehe_22.jpg','Ehe_23.jpg','Ehe_24.jpg','Ehe_25.jpg','Ehe_26.jpg','Ehe_27.jpg','Ehe_28.jpg','Ehe_29.jpg','Ehe_30.jpg','Ehe_31.jpg'
 ])
 # Drittes Quiz
-add_quiz([], ['Mauerbau.jpg'])
+add_quiz([4,12,36], [
+    'Hausbau_1.jpg','Hausbau_2.jpg','Hausbau_3.jpg','Hausbau_4.jpg','Hausbau_5.jpg','Hausbau_6.jpg','Hausbau_7.jpg','Hausbau_8.jpg','Hausbau_9.jpg',
+    'Hausbau_10.jpg','Hausbau_11.jpg','Hausbau_12.jpg','Hausbau_13.jpg','Hausbau_14.jpg','Hausbau_15.jpg','Hausbau_16.jpg','Hausbau_17.jpg',
+    'Hausbau_18.jpg','Hausbau_19.jpg','Hausbau_20.jpg','Hausbau_21.jpg','Hausbau_22.jpg','Hausbau_23.jpg','Hausbau_24.jpg','Hausbau_25.jpg',
+    'Hausbau_26.jpg','Hausbau_27.jpg','Hausbau_28.jpg','Hausbau_29.jpg','Hausbau_30.jpg','Hausbau_31.jpg','Hausbau_32.jpg','Hausbau_33.jpg',
+    'Hausbau_34.jpg','Hausbau_35.jpg','Hausbau_36.jpg','Hausbau_37.jpg','Hausbau_38.jpg','Hausbau_39.jpg','Hausbau_40.jpg','Hausbau_41.jpg',
+    'Hausbau_42.jpg','Hausbau_43.jpg','Hausbau_44.jpg'
+    ])
 # Viertes Quiz
 add_quiz([], ['Freunde_1.jpg','Freunde_2.jpg','Freunde_3.jpg','Freunde_4.jpg','Freunde_5.jpg','Freunde_6.jpg','Freunde_7.jpg'])
 # Fuenftes Quiz
