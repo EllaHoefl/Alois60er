@@ -96,15 +96,24 @@ add_quiz([4,12,36], [
     'Hausbau_42.jpg','Hausbau_43.jpg','Hausbau_44.jpg'
     ])
 # Viertes Quiz
-add_quiz([], ['Freunde_1.jpg','Freunde_2.jpg','Freunde_3.jpg','Freunde_4.jpg','Freunde_5.jpg','Freunde_6.jpg','Freunde_7.jpg'])
+add_quiz([12,33], [
+    'Freunde_1.jpg','Freunde_2.jpg','Freunde_3.jpg','Freunde_4.jpg','Freunde_5.jpg','Freunde_6.jpg','Freunde_7.jpg','Freunde_8.jpg',
+    'Freunde_9.jpg','Freunde_10.jpg','Freunde_11.jpg','Freunde_12.jpg','Freunde_13.jpg','Freunde_14.jpg','Freunde_15.jpg','Freunde_16.jpg',
+    'Freunde_17.jpg','Freunde_18.jpg','Freunde_19.jpg','Freunde_20.jpg','Freunde_21.jpg','Freunde_22.jpg','Freunde_23.jpg','Freunde_24.jpg',
+    'Freunde_25.jpg','Freunde_26.jpg','Freunde_27.jpg','Freunde_28.jpg','Freunde_29.jpg','Freunde_30.jpg','Freunde_31.jpg','Freunde_32.jpg',
+    'Freunde_33.jpg','Freunde_34.jpg','Freunde_35.jpg','Freunde_36.jpg'
+        ])
 # Fuenftes Quiz
-add_quiz([], ['Fortfahren_1.jpg','Fortfahren_2.jpg','Fortfahren_3.jpg','Fortfahren_4.jpg','Fortfahren_5.jpg','Fortfahren_6.jpg'])
-# Sechstes Quiz
 add_quiz([], [
+    'Fortfahren_1.jpg','Fortfahren_2.jpg','Fortfahren_3.jpg','Fortfahren_4.jpg','Fortfahren_5.jpg','Fortfahren_6.jpg'
+    ])
+# Sechstes Quiz
+add_quiz([10], [
     'Geschwister_1.jpg','Geschwister_2.jpg','Geschwister_3.jpg','Geschwister_4.jpg','Geschwister_5.jpg','Geschwister_6.jpg',
     'Geschwister_7.jpg','Geschwister_8.jpg','Geschwister_9.jpg','Geschwister_10.jpg','Geschwister_11.jpg','Geschwister_13.jpg',
-    'Geschwister_14.jpg','Geschwister_15.jpg','Geschwister_16.jpg','Geschwister_17.jpg','Geschwister_18.jpg','Geschwister_19.jpg',
-    'Geschwister_20.jpg','Geschwister_21.jpg','Geschwister_22.jpg','Geschwister_23.jpg','Geschwister_24.jpg','Geschwister_25.jpg'
+    'Geschwister_15.jpg','Geschwister_16.jpg','Geschwister_17.jpg','Geschwister_18.jpg','Geschwister_19.jpg','Geschwister_20.jpg',
+    'Geschwister_21.jpg','Geschwister_22.jpg','Geschwister_23.jpg','Geschwister_24.jpg','Geschwister_25.jpg','Geschwister_26.jpg',
+    'Geschwister_27.jpg'
 ])
 # Siebtes Quiz
 add_quiz([], ['Motorrad.jpg'])
