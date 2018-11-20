@@ -23,7 +23,7 @@ for line in labyrinth_lines:
     gems.append(gem_row)
 
 # Pyglet window and background
-window = pyglet.window.Window(fullscreen = False)
+window = pyglet.window.Window(fullscreen = True)
 background = pyglet.resource.image('background.png')
 
 window_width = int(window.width)
@@ -205,6 +205,22 @@ def is_valid(x, y):
         return False
     return True
 
+def draw_image_centered():
+    image = quizes[quiz_index][image_index]
+    image_width_height_ratio = image.width / image.height
+    height_scaling_factor = window_height / image.height
+    width_scaling_factor = window_width / image.width
+
+    if width_scaling_factor > height_scaling_factor:
+        image_height = window_height
+        image_width = image_height * image_width_height_ratio
+    else:
+        image_width = window_width
+        image_height = image_width / image_width_height_ratio
+
+    x_offset = (window_width - image_width) / 2
+    y_offset = (window_height - image_height) / 2
+    quizes[quiz_index][image_index].blit(x_offset, y_offset, width=image_width, height=image_height)
 
 @window.event
 def on_key_press(symbol, modifiers):
@@ -233,7 +249,7 @@ def on_draw():
     window.clear()
     check_for_gems()
     if show_quiz:
-        quizes[quiz_index][image_index].blit(0,0, width=window_width, height=window_height)
+        draw_image_centered()
     else:
         background.blit(0, unit_size, width=window_width, height=window_height-unit_size)
 
